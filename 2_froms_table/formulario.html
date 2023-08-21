@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>formularios</title>
+    </head>
+    <body>
+        <form action="resultados.html" method="get">  <!--etiquetas para permitir introducir datos para formularios,Action atributo que hace referencia a la informacion que se llevara dentro del formulari,get metodo usad para gestionar informacion-->
+            <div>
+                <label for="Nombreusuario"> <!--etiqueta siver para crear etiquetas poniendoles un atributo, el for refenrencia a un atributo para etiqueta-->
+                    Nombre de susario 
+                </label> 
+                <input type="text" name="Nombreusuario"id="Nombreusuario" required><!--imput etiqueta que creac un campo de texto la informacion para el formulario,id para identificarlo con el"leable"",name para darle nombre al variable, "requied" refiere a crear un campo obligatorio,"type tex re3fenrencia al tipó de texto sera introdusido"-->
+            </div>  
+            <div>
+                <label for="comentario">
+                    comentario
+                </label>
+                <textarea name="comentario" id="comentario" ></textarea><!--usado par generar area de texto -->
+                
+            </div>  
+            <div>
+                <label for="contraseña">
+                    Contraseña
+                </label>
+                <input type="password" name="contraseña"id="contraseña" required><!-- "type password" tipo de texto solo contraseña-->
+            </div>
+            <div>
+                <label for="email">
+                    cual es tu Email
+                </label>
+                <input type="email" name="email"id="email" required><!-- "type email" tipo de texto exige escibir un email -->
+            </div>
+            <div>
+                <label for="edad">
+                    Edad
+                </label>
+                <input type="number" name="edad"id="edad" min="0" max="200" step="5" required><!-- "type number" tipo de texto solo acepta numeros,"min,max" etuetqta par de3finirel elmaximo y el minimo del numero,"step" define en cuanto en cuanto  mover el numero-->
+            </div>
+            <div>
+                <label for="nacimiento">
+                    fecha de nacimiento
+                </label>
+                <input type="date" name="nacimiento" id="nacimiento" required><!-- "type password" tipo de texto solo contraseña-->
+            </div>
+<!--tipo de botones -->
+            <div>
+                <button type="submit"><!--etiqueta para crear botones,sumit atributo para identificar tipo de boton,sumit para enviar informaciointoducido en el -->
+                    enviar
+                </button>
+                <button type="submit"><!--reset, tipo de voton para resetear el formulario-->
+                    enviar
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
+<!-- -->

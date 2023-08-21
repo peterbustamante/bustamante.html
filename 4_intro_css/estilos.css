@@ -1,0 +1,7 @@
+h1 {/* modifica los elemtos dentro de la etiqueta */
+    color:rgb(74, 194, 70);/*color de texto/parrafo*/
+}
+p {
+    color:blueviolet;
+    font-size: 68px ;/* tamaño del texto/parrafo*/
+}
