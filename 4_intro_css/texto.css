@@ -1,0 +1,10 @@
+/*metodo para importar etilo de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap');
+
+html {
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/     /*permite el cambio cambio de tipos de fuentes*/
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: large;/*para definir  tamaño de fuente*/
+    font-weight: 1900;/* define el grosor de la fuente*/
+    font-style: italic;/*estilo para la fuenrte*/
+}

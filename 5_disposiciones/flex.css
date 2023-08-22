@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 243, 140);
+    height: 300px;
+    justify-content:space-around ; /* distribucion de tablaba segun*/
+    align-items: center;
+    /*flex-wrap: center;*/
+}
+.contenedor_1{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenedor_2{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenedor_3{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}

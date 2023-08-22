@@ -5,3 +5,21 @@ p {
     color:blueviolet;
     font-size: 68px ;/* tamaño del texto/parrafo*/
 }
+p#parrafo1{/*para los id, especificar que etiqueta*/
+    color: aqua;
+    font-size: 15px;
+}
+#parrafo2{
+    color: rgb(181, 17, 196);
+    font-size: 15pt;
+}
+.principal{/*para las clases*/
+    color: rgb(199, 21, 21);
+    font-size: 15pt;
+}
+*.todo{
+    color:rgb(34, 0, 255);    
+}
+.nombre ,.apellido, h1, #parrafo2{/* modificar varias etiquetas, clases, ides, etec*/
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.contenedor_hidden{
+    background-color: rgb(255, 240, 174);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;/*oculta la informacion dentro del contenedor*/
+}
+.contenedor_scroll{
+    margin: 10px 0px;
+    background-color: rgb(255, 240, 174);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;/*aparte de intoducir el contenido dentro del contenedor,crea una una barra de escroll para su navegacion*/
+}
+.contenedor_visible{
+    margin: 10px 0px;
+    background-color: rgb(255, 240, 174);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;/*deja visible todo el contenido*/
+}
+.contenedor_auto{
+    margin: 65px 0px;
+    background-color: rgb(255, 240, 174);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;/*genera un scroll predederteminado segun el orden*/
+}
+.contenedor_scrollx{
+    margin: 10px 0px;
+    background-color: rgb(255, 240, 174);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x:hidden;/*para no mostrar el escrolo en paticular*/
+    overflow-y: scroll;/*para mostrat la pocion de escroll en particular*/
+}

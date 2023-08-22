@@ -1,0 +1,7 @@
+.contenedor p {/* referencia a todos los p del contenedor*/
+    color: rgb(0, 145, 97);
+}
+
+.contenedor #boton{
+    color: blueviolet;
+}

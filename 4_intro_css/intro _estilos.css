@@ -1,0 +1,49 @@
+.colores{
+color: blue;
+}
+.colores_hexadecimal{
+    color: #DCE5C8;
+}
+
+.colores_rgb{
+    color:rgb(33, 4, 87);
+}
+
+.colores_rgba{
+    color:rgba(33, 4, 87, 0.2);/* para definir opacidad*/
+}
+
+/*--------------- cajas como fondo------------------*/
+.fondo{
+    background-color: chocolate;
+}
+
+.fondo1{
+    background-image: url("https://www.biografiasyvidas.com/biografia/g/fotos/gogh_autorretrato_1890_1.jpg");/* icorrcopara direcion de imagen esterno*/
+    background-position: center 40%;
+
+}
+
+.fondo2{
+    background-image: url("carnage.jpg");
+    background-position: center 1200%;/* define lo que se vera de la imagen dentro del espacio*/
+    height: 150px;
+}
+/*----tamaños de caja ------*/
+.ancho{
+    background-color: deeppink;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 100px;
+}
+/*-------cajas bordes----------*/
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(93, 106, 179);
+    border-width: 3px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}

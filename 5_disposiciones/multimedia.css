@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.imagen_principal {
+    width: 100vw;
+    opacity: 0.5;/* define opacidas de imagen entr 0 y 1*/
+}
+.imagen_principal:hover {/* genera su funcion cuando pasa el cursor */
+    opacity: 1;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img_galeria {
+    width: 250px;
+}
+.img_galeria:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
