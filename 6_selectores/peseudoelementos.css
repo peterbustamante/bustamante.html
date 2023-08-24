@@ -1,0 +1,32 @@
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color:lightblue;
+}
+samp.fras{
+    font-style: italic;
+}
+
+samp.fras:after{
+    content:'--';
+    font-size: xx-small;
+}
+samp.fras::before{
+    content:'__';
+    font-size: xx-small;
+}
+.libro{
+    width: 300px;
+    height: 100px;
+    background-color:lightpink;
+}
+.libro p::first-letter{/*modifica la primera letra que se encuentre incluido*/
+    font-size: xx-large;
+}
+.libro p::first-line{
+    color: lightcoral;
+}
+.libro p::selection{
+    background-color:lightblue ;
+    color: mediumpurple;
+}

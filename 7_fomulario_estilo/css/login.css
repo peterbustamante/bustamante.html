@@ -1,0 +1,136 @@
+.contenedor {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 450px;
+}
+.botones{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.boton_google{
+    background-color: #1A73E8;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.boton_google:hover{
+    opacity: 0.75;
+}
+.boton_google picture{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+}
+.boton_google picture img {
+    width: 100%;
+}
+
+.boton_google samp{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.x{
+    color: rgb(105, 125, 159);
+    background-color: rgb(198, 216, 231);
+    border-radius: 5px;
+    border:none;
+    width: 40px;
+    
+}
+
+.x:hover{
+    background-color: rgb(223, 223, 223) ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+
+}
+
+.separador{
+    display: flex;
+    width: 100%;
+}
+.separador hr{
+    flex-grow: 1;
+}
+.separador samp{
+    color: rgb(108, 108, 108);
+}
+.secciones_input {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+label {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+
+label input{
+    width: 100%;
+    background-color: rgb(198, 216, 231);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14px ;
+    transition: background-color 0.2s, border 0.2s;
+    
+}
+label input:hover{
+    background-color: aliceblue;
+    border: solid 1px aliceblue;
+    box-shadow: 0 0 5px rgb(59, 114, 114);
+}
+label input:focus{
+    background-color: aliceblue;
+    border: solid 1px aliceblue;
+    box-shadow: 0 0 5px rgb(59, 114, 114);
+}
+.rchecbox {
+    display: flex;
+    flex-direction: row;
+}
+.rchecbox input[type="checkbox"]{
+    width: 20px;
+}
+.rchecbox span {
+    font-weight: 400;
+}
+.submit_btn {
+    background-color: rgb(133, 100, 231);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+.submit_btn:hover{
+    opacity:0.8 ;
+    box-shadow: 0 0 5px rgb(140, 103, 159);
+}

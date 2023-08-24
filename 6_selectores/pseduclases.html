@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        .hover:hover { /*se ativa cuando se pasa el raton */
+            background-color: rgb(216, 178, 128);
+        }
+        .listado{
+            padding: 15px;
+            background-color: aqua;
+        }
+        .listado p:first-child{
+            color:rgb(137, 47, 255);
+        }
+        a:link{/*link establesido*/
+            color: cyan;
+        }
+        a:visited{/*link visitado*/
+            color: crimson;
+        }
+        a:hover{
+            color: darkorange;
+        }
+        a:active{/*lin al momento de ser utilisado*/
+            color: rgb(182, 246, 255);
+        }
+    </style>
+</head>
+    <body>
+        <div class="hover">
+            <p>
+                Aquellos en los que se le da al lector una serie de contenidos o informaciones
+                específicas junto con las herramientas conceptuales o contextuales para
+                comprenderlos, es decir, se le explica algo concreto. Por ejemplo.      
+            </p>
+        </div>
+        <div class="listado">
+            <p>parrafo1</p>
+            <p>parrafo2</p>
+            <p>parrafo3</p>
+        </div class="enlaces">
+        <a href="http://google.com" target="_blank"> enlase a google</a>
+        <a href="http://google.com" target="_blank"> enlase a google</a>
+
+        <div>
+
+        </div>
+    </body>
+</html>

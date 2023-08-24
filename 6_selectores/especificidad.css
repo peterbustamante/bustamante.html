@@ -1,0 +1,17 @@
+/*(1,0,0)*//* valor de id*/
+/*(0,1,0)*//* valor de class*/
+/*(0,0,1)*//* valor deetqueta*/
+
+.class{
+    color:darkseagreen;
+}
+
+#id{
+    color:aquamarine;
+}
+
+
+
+h1{
+    color:darkgoldenrod !important;/*define como el mas importante*/
+}
