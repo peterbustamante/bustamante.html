@@ -1,0 +1,51 @@
+.main2 {
+    width: 600px;
+    height: 600px;
+    background: lightblue;
+    border: 15px solid blue;
+    box-sizing: border-box;
+    position:relative;
+}
+.main2 .seccion1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.main2 .seccion2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+
+.main2 .seccion3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.article1{
+    width: 150px;
+    height: 150px;
+    background: green;
+
+
+}
+.article2{
+    width: 150px;
+    height: 150px;
+    background: green;
+    
+
+}
+.article3{
+    width: 150px;
+    height: 150px;
+    background: green;
+    
+
+}
