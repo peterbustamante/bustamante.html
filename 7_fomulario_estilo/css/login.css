@@ -27,6 +27,7 @@
 }
 .boton_google:hover{
     opacity: 0.75;
+    box-shadow:0 0 10px red;
 }
 .boton_google picture{
     width: 30px;

@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: rgb(250, 243, 140);
     height: 300px;
-    justify-content:space-around ; /* distribucion de tablaba segun*/
+    justify-content:space-between ; /* distribucion de tablaba segun*/
     align-items: center;
     /*flex-wrap: center;*/
 }
