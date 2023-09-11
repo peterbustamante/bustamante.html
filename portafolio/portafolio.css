@@ -1,92 +1,100 @@
-html{
-    background-color: rgba(100, 98, 87, 0.69);
-
+*{
+    margin: 0%;
+    box-sizing: border-box;
 }
-.sredes{
-    position: sticky;
-    background-color: rgb(204, 204, 204);
-    height: 70px;
-    top: 0%;
-    z-index: 20;
-
-}
-.redes{
+/*---------------------------------------------------------*/
+.barra{
+    background-color: rgb(35, 35, 35);
+    height: 80px;
     display: flex;
+    align-items: center;
+    justify-content: right;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    
+}
+
+.barra .display {
+    display: flex
+}
+.barra .contacto{
+    display:flex;
+}
+.barra a{
+        display: flex;
+        background-color: rgb(87, 87, 87);
+        margin-right: 30px;
+        height:  80%;
+        align-items: center;
+}
+.barra .display a{
+    justify-content: center;
+    width: 100px;
     height: 50px;
-    left:90%;  
 }
-
+.barra .contacto a{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+}
+.barra a:hover{
+    color:  rgb(255, 229, 84);
+    background-color: rgb(252, 115, 115);
+    box-shadow: 0 0 15px rgb(255, 0, 47);
+    transition: 0.5s
+}
+/*---------------------------------------------------------*/
 .presentacion{
+    background: rgb(197, 195, 183);
     display: flex;
-    justify-content:center;
-    align-items:center;
-    height: 420px;
-
-}
-.decorar_imagen{
-    display: flex;
-    justify-content: space-evenly;
-    background-color:rgb(216, 216, 216) ;
+    justify-content: center;
     align-items: center;
-    height: 390px;
-    width: 390px;
-    border: solid 4px rgb(0, 0, 0);
+    line-
 }
-.presentacion img{
-    border-radius: 6px;
-    height: 300px;
-    border: solid 3px rgb(0, 0, 0);
-    font-size: 10px;
-    
+
+.presentacion .foto img{
+    height: 500px;
     
 }
 
-.presentacion img:hover{
-    background-image: url(img/peter.jpg);
-    box-shadow: 0 0 100px rgb(236, 255, 131);
-}
-.decorar{
-    display: flex;
-    background-color: rgb(124, 133, 171);
-    align-items: center;
-    height: 280px;
-    width: 450px;
-    margin: 0 0 60px 0;
-    padding: 0 0 0 10px;
-    flex-wrap:wrap ;
-    border: solid 4px rgb(0, 0, 0);
-    box-shadow: 0 0 30px rgb(86, 86, 86);
-}
-.presentacion .texto{
-    background-color: rgb(248, 232, 165);
-    height: 200px;
-    width: 400px;
-    border: solid 1px rgb(0, 0, 0) ;
-    flex-wrap: wrap;
-    
-
-}
-
-.proyectos{
-    display: flex;
-    background-color: rgb(204, 204, 204);
-    height: 540px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    border: 3px solid rgb(28, 28, 28);
-    box-shadow: 0 0 30px rgb(86, 86, 86); ;
-}
-
-.proyectos samp{
-    background-color: aliceblue;
-    width: 220px;
-    height: 220px;
-    border: 3px solid rgb(0, 0, 0);
-
-}
-.contra_pie{
-    
+.presentacion .foto .ilustracion{
     position: absolute;
-    
+} 
+.presentacion .foto .ilustracion:hover{
+    transition:2s ;
+    opacity: 0.2;
+}  
+/*---------------------------------------------------------*/
+.proyectos{
+    background: rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.proyectos p{
+    background: rgb(139, 139, 139);
+    width: 280px;
+    height: 280px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/*---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.pie{
+    background-color: rgb(104, 95, 83);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 60px;
+    bottom: unset;
 }
