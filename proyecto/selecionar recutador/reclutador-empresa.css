@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Montserrat&family=Poppins:wght@300&family=Tilt+Prism&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+main{
+    background-color: black;
+    color: aliceblue;
+}
+#areas{
+    display: grid;
+    grid-column: 1fr 1fr ;
+    grid-row: 10vh 20vh 40vh 30vh;
+
+    grid-template-areas: "header header""reclutador_contenido""controles_reclutador controles_reclutador";
+    
+}
+#header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 3px solid white;
+    font-size:30pt;
+
+}
+#menu{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 0%;
+    background: #ffd966;
+    color:black
+}
+#amarillo{
+    color: #ffd966;
+    margin-left: 3px;
+}
+
+
+#reclutador_contenido{
+    display: flex;
+    grid-area:auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #FFD966;
+    height: 60px;
+    
+
+}
+#titulo_reclutador{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#control{
+    display: grid;
+    justify-content:space-around;
+}
+#filtro{
+    background-color: rgb(88, 87, 87);
+    height: 400px;
+    width: 200px;
+}
+#registro-empresas{
+    background-color: rgb(184, 184, 184);
+    height: 800px;
+    width: 600px;
+}
+
+
+/*-----------------foter-----------------*/
+footer {
+    
+    background-color: #FFD966;
+    
+}
+
+#union {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contenedor-img {
+    width: 7%;
+    margin-left: 10px;
+}
+
+#logo-png {
+    display: flex;
+    width: 160px;
+    height: 117px;
+}
+
+#info-footer {
+    display: flex;
+    color: black;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+#sebas,#william,#peter,#capera {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#apps {
+    display: flex;
+    gap: 25px;
+}
+
+#apps i{
+    color:black
+}
+
+#apps i:hover{
+    color:black;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+
+
+#informacion{
+    display: flex;
+    color: black;
+    background: #ffd966;
+    
+} 
+
+
+
+
+
+
